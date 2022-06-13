@@ -8,4 +8,6 @@ const userSurname = prompt('Il tuo cognome');
 const userFavouriteColor = prompt('Il tuo colore preferito');
 
 // generated password
-document.getElementById('user-generated-password').innerHTML = userName + userSurname + userFavouriteColor + 22;
+const generatedPassword = userName + userSurname + userFavouriteColor + 22;
+
+document.getElementById('user-generated-password').innerHTML = generatedPassword;
